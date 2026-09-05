@@ -1,7 +1,7 @@
 
-#define BLYNK_TEMPLATE_ID "TMPL3P5JEJ_L9"
-#define BLYNK_TEMPLATE_NAME "Smart Irrigation System"
-#define BLYNK_AUTH_TOKEN "nWO5YpOEGin4XjzT5N7UqEu-U4zgATGj"
+#define BLYNK_TEMPLATE_ID ""
+#define BLYNK_TEMPLATE_NAME ""
+#define BLYNK_AUTH_TOKEN ""
 
 #include <WiFi.h>
 #include <BlynkSimpleEsp32.h>
@@ -12,18 +12,18 @@
 // WIFI
 // =====================================================
 
-char ssid[] = "POCO M5";
-char pass[] = "mrdj62uai5zwth9";
+char ssid[] = "";
+char pass[] = "";
 
 // =====================================================
 // FIREBASE CREDENTIALS
 // =====================================================
 
-#define API_KEY "AIzaSyAJGvnZqoskfs8LmicZDLWPdChQ9t4neWE"
-#define DATABASE_URL "crop-irrigation-6b5f2-default-rtdb.asia-southeast1.firebasedatabase.app"
+#define API_KEY ""
+#define DATABASE_URL ""
 
-#define USER_EMAIL "adityadas0306@gmail.com"
-#define USER_PASSWORD "keanureeves30"
+#define USER_EMAIL ""
+#define USER_PASSWORD ""
 
 // =====================================================
 // PIN DEFINITIONS
