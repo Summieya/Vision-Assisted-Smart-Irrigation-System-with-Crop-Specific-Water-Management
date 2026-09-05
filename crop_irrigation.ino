@@ -1,7 +1,11 @@
-
 #define BLYNK_TEMPLATE_ID "your-blynk-template-id"
 #define BLYNK_TEMPLATE_NAME "your-blynk-template-name"
 #define BLYNK_AUTH_TOKEN "blynk-auth-token"
+=======
+#define BLYNK_TEMPLATE_ID ""
+#define BLYNK_TEMPLATE_NAME ""
+#define BLYNK_AUTH_TOKEN ""
+
 
 #include <WiFi.h>
 #include <BlynkSimpleEsp32.h>
@@ -12,18 +16,31 @@
 // WIFI
 // =====================================================
 
+
 char ssid[] = "wifi-name";
 char pass[] = "wifi-password";
+=======
+char ssid[] = "";
+char pass[] = "";
+
 
 // =====================================================
 // FIREBASE CREDENTIALS
 // =====================================================
+
 
 #define API_KEY "your-api-key"
 #define DATABASE_URL "your-database-url"
 
 #define USER_EMAIL "your-email-id"
 #define USER_PASSWORD "your-password"
+=======
+#define API_KEY ""
+#define DATABASE_URL ""
+
+#define USER_EMAIL ""
+#define USER_PASSWORD ""
+
 
 // =====================================================
 // PIN DEFINITIONS
@@ -51,7 +68,7 @@ FirebaseData fbdo;
 FirebaseAuth auth;
 FirebaseConfig config;
 
-// ADD THIS
+
 void tokenStatusCallback(TokenInfo info)
 {
   Serial.println();
